@@ -1,5 +1,5 @@
-import "./styles.css";
-import * as R from "ramda";
+import "./styles.css"
+import * as R from "ramda"
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
@@ -8,6 +8,4 @@ document.getElementById("app").innerHTML = `
   info about Parcel 
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
-`;
-
-console.log(R.add(1)(1));
+`
